@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Available Jobs</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">AI JOB</div>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+<li><a href="jobs.html">Jobs</a></li>
+<li><a href="saved.html">Saved</a></li>
+<li><a href="about.html">About</a></li>
+
+</ul>
+
+<button id="themeToggle">🌙</button>
+
+</nav>
+
+</header>
+
+<section class="job-section">
+
+<h1>Find Your Dream Job</h1>
+
+<div class="filters">
+
+<input
+type="text"
+id="search"
+placeholder="Search Job Role">
+
+<select id="location">
+
+<option value="">Location</option>
+<option>Bangalore</option>
+<option>Hyderabad</option>
+<option>Pune</option>
+<option>Noida</option>
+
+</select>
+
+<select id="experience">
+
+<option value="">Experience</option>
+<option>0-1 Years</option>
+<option>1-3 Years</option>
+<option>3-5 Years</option>
+
+</select>
+
+
+<select id="company">
+    <option value="">Company</option>
+    <option>Google</option>
+    <option>Microsoft</option>
+    <option>Amazon</option>
+    <option>IBM</option>
+</select>
+
+</div>
+
+<div id="jobContainer">
+
+</div>
+
+</section>
+
+<script src="js/jobs.js"></script>
+
+<script src="js/theme.js"></script>
+
+</body>
+
+</html>
